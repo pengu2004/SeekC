@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -std=c11
 
 TARGET = seekc
 
-SRC = main.c scanner.c
+SRC = main.c scanner.c reader.c
 OBJ = $(SRC:.c=.o)
 
 all: $(TARGET)
