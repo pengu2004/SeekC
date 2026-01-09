@@ -10,7 +10,7 @@ int check_text_file(const char *name) {
   if (!extension) {
     return 0;
   }
-  const char *extentions[] = {".csv", ".c", ".h"};
+  const char *extentions[] = {".csv", ".txt"};
   int count =
       sizeof(extentions) / sizeof(extentions[0]); // find the lenght of array
   for (int i = 0; i < count; i++) {
